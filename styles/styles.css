@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fondo_pantalla.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    min-height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%; 
+    margin: 0 auto; 
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    flex: 1; 
+}
+
+.columna {
+    width: 300px; 
+    margin: 10px; 
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px; 
+    overflow: hidden;
+}
+
+.columna img {
+    width: 100%; 
+    height: auto; 
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin: 20px 0;
+    padding: 10px 20px; 
+    border: 2px solid #fff; 
+    border-radius: 15px; 
+    display: inline-block; 
+    background-color: rgba(148, 22, 227, 0.493); 
+}
+
+h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+}
+
+p {
+    padding: 15px;
+    margin: 0;
+    color: #333; 
+}
+
+footer {
+    text-align: center;
+    background-color: #292929bf; 
+    padding: 10px;
+    position: relative;
+    margin-top: auto; 
+    clear: both; 
+    color: #fff;
+}
